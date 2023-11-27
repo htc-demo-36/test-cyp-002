@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-cyp-002"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-36"
+    "humanitec.com/appId": "test-cyp-002"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
